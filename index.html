@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ronald Francis Andalis Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@600;900&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader" class="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-glow"></div>
+      <div class="preloader-text">Loading</div>
+    </div>
+  </div>
+  <!-- Full-site animated canvas background -->
+  <canvas id="bg-shapes"></canvas>
+  <!-- Navigation -->
+  <nav class="nav" aria-label="Main navigation">
+    <ul>
+      <li><a href="#about">Welcome</a></li>
+      <li><a href="#history">IT History</a></li>
+      <li><a href="#education">Educational</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <!-- HERO ABOUT -->
+  <header id="about" class="hero section">
+    <div class="hero-inner">
+      <!-- LEFT SIDE TEXT -->
+      <div class="hero-left">
+        <h2 class="intro">Hello, It's Me</h2>
+        <h1 class="hero-title shimmer-glow">Ronald Francis Andalis</h1>
+        <h3 class="hero-sub">And I'm a <span id="typewriter"></span><span class="cursor">|</span></h3>
+        <p class="hero-desc">Welcome to my cyber-modern portfolio! Explore my IT journey, skills, and projects—powered by glowing neon design.</p>
+        <div class="hero-buttons">
+          <a class="btn-cv" href="#contact">Contact Me</a>
+          <a class="btn-cv" href="#projects">View Projects</a>
+        </div>
+      </div>
+      <!-- AVATAR HEXAGON -->
+      <div class="hexagon-avatar">
+        <div class="hexagon-frame">
+          <img src="assets/avatar.jpg" alt="Avatar" />
+        </div>
+        <div class="hex-glow"></div>
+      </div>
+    </div>
+  </header>
+  <!-- HISTORY TIMELINE -->
+  <section id="history" class="section" aria-label="IT History Timeline">
+    <h2>My IT Journey</h2>
+    <div class="timeline" id="timeline">
+      <div class="timeline-card" tabindex="0">
+        <div class="timeline-title">Started Young</div>
+        <div class="timeline-desc">Began learning computers and basic software from high school, exploring programs and games.</div>
+      </div>
+      <div class="timeline-card" tabindex="0">
+        <div class="timeline-title">Web Dev Explorer</div>
+        <div class="timeline-desc">Built responsive websites with HTML, CSS, and JavaScript, experimenting with modern themes and layouts.</div>
+      </div>
+      <div class="timeline-card" tabindex="0">
+        <div class="timeline-title">Programming Practitioner</div>
+        <div class="timeline-desc">Studied Python and C++ for scripting and software logic—created basic scripts and interactive apps.</div>
+      </div>
+      <div class="timeline-card" tabindex="0">
+        <div class="timeline-title">Project Builder</div>
+        <div class="timeline-desc">Developed personal projects and hackathon apps. <span class="badge">🏆</span></div>
+      </div>
+    </div>
+  </section>
+  <!-- EDUCATION -->
+<section id="education" class="section" aria-label="Educational Background">
+<h2>Education</h2>
+
+
+<div class="timeline">
+<article class="timeline-card edu-card" tabindex="0">
+<div class="edu-emoji" aria-hidden="true">🎓</div>
+<h3 class="timeline-title">Camarines Sur Polytechnic Colleges (CSPC)</h3>
+<div class="timeline-desc">
+<strong>Degree:</strong> BS in Information Technology<br>
+<strong>Status:</strong> Current Student (Target Graduation: 2027)<br>
+<strong>Subjects:</strong> Web Development, Programming, Networking, Scripting
+</div>
+</article>
+
+
+<!-- You can duplicate this card if you have more entries -->
+<article class="timeline-card edu-card" tabindex="0">
+<div class="edu-emoji" aria-hidden="true">💻</div>
+<h3 class="timeline-title">Relevant Experience</h3>
+<div class="timeline-desc">Participated in hackathons, collaborated on student app projects, and contributed to design & front-end implementations.</div>
+</article>
+</div>
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="section" aria-label="Portfolio Projects">
+<h2>Portfolio Projects</h2>
+<div class="projects-grid">
+<div class="project-card" data-project="1" tabindex="0">
+<div class="project-thumb">
+<img class="project-image" src="/images/project1.jpg" alt="Responsive Web Portfolio" />
+</div>
+<div class="project-body">
+<div class="project-title">Responsive Web Portfolio</div>
+<div class="project-desc">The Responsive Web Portfolio is an elegant and cyber-modern website designed using HTML, 
+  CSS, and JavaScript. It features a sleek and futuristic aesthetic highlighted by animated shadows, glowing effects, 
+  and fluid layouts that automatically adjust to any screen size. The portfolio showcases creativity and professionalism 
+  through smooth transitions, dynamic hover animations, and interactive background elements that give life to each section. 
+  Its adaptive design ensures a seamless experience across all devices, while features like a theme toggle, scroll animations, 
+  and typing text effects enhance user engagement. Built with performance and style in mind, this portfolio serves as a modern 
+  digital identity for developers, designers, and creatives who want to stand out with both innovation and visual appeal.</div>
+<button class="project-btn" aria-haspopup="dialog">View Details</button>
+</div>
+</div>
+
+
+<div class="project-card" data-project="2" tabindex="0">
+<div class="project-thumb">
+<img class="project-image" src="/images/project2.jpg" alt="Web-Based Registrar’s Office Transaction Processing System" />
+</div>
+<div class="project-body">
+<div class="project-title">Web-Based Registrar’s Office Transaction Processing System</div>
+<div class="project-desc">The Web-Based Registrar’s Office Transaction Processing System for Camarines Sur 
+Polytechnic College is created to make the registrar’s transaction faster and convenient for both 
+staff and students. At the present, most of the processes in the Registrar’s Office are done manually, 
+requiring a face to face, making the students to wait in line and submit their physical forms for 
+request such as certifications, transcripts, and other academic records. This traditional method often 
+leads to delays that, at times, can take an entire day to complete a request especially when there is 
+a high volume of students making requests on the same day. </div>
+<button class="project-btn" aria-haspopup="dialog">View Details</button>
+</div>
+</div>
+
+
+<div class="project-card" data-project="3" tabindex="0">
+<div class="project-thumb">
+<img class="project-image" src="/images/project3.jpg" alt="PolyClinic" />
+</div>
+<div class="project-body">
+<div class="project-title">PolyClinic</div>
+<div class="project-desc">A Polyclinic System is a comprehensive healthcare management solution designed to streamline 
+  the daily operations of a polyclinic, ensuring efficient patient care and administrative management. 
+  This system facilitates the management of patient records, appointment scheduling, medical history tracking, 
+  treatment monitoring, and staff coordination, including doctors, nurses, and administrative personnel. 
+  By integrating digital tools, the system minimizes manual paperwork, reduces errors, and improves communication 
+  between healthcare providers and patients. Ultimately, the Polyclinic System enhances the overall quality of 
+  healthcare services, promotes operational efficiency, and ensures timely and accurate delivery of medical care.</div>
+<button class="project-btn" aria-haspopup="dialog">View Details</button>
+</div>
+</div>
+</div>
+</section>
+
+
+<section id="skills" class="section">
+  <h2>My Skills</h2>
+
+  <div class="skills-list">
+    <div class="skill-item" data-percent="90">
+      <span class="skill-name">HTML</span>
+      <div class="skill-dot-circle">
+        <span class="skill-percent">0%</span>
+      </div>
+    </div>
+
+    <div class="skill-item" data-percent="65">
+      <span class="skill-name">CSS</span>
+      <div class="skill-dot-circle">
+        <span class="skill-percent">0%</span>
+      </div>
+    </div>
+
+        <div class="skill-item" data-percent="70">
+      <span class="skill-name">PHP</span>
+      <div class="skill-dot-circle">
+        <span class="skill-percent">0%</span>
+      </div>
+    </div>
+
+        <div class="skill-item" data-percent="87">
+      <span class="skill-name">C++</span>
+      <div class="skill-dot-circle">
+        <span class="skill-percent">0%</span>
+      </div>
+    </div>
+
+        <div class="skill-item" data-percent="65">
+      <span class="skill-name">CyberSecurity</span>
+      <div class="skill-dot-circle">
+        <span class="skill-percent">0%</span>
+      </div>
+    </div>
+
+        <div class="skill-item" data-percent="50">
+      <span class="skill-name">LARAVEL</span>
+      <div class="skill-dot-circle">
+        <span class="skill-percent">0%</span>
+      </div>
+    </div>
+
+    <div class="skill-item" data-percent="50">
+      <span class="skill-name">JavaScript</span>
+      <div class="skill-dot-circle">
+        <span class="skill-percent">0%</span>
+      </div>
+    </div>
+
+    <div class="skill-item" data-percent="47">
+      <span class="skill-name">Git</span>
+      <div class="skill-dot-circle">
+        <span class="skill-percent">0%</span>
+      </div>
+    </div>
+
+    <div class="skill-item" data-percent="20">
+      <span class="skill-name">Linux</span>
+      <div class="skill-dot-circle">
+        <span class="skill-percent">0%</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="section" aria-label="Contact Form">
+<h2>Contact Me</h2>
+<div class="contact-wrap">
+<form id="contactForm" class="contact-form" aria-label="Contact form">
+<label for="name">Name</label>
+<input type="text" name="name" id="name" />
+<label for="email">Email</label>
+<input type="email" name="email" id="email" />
+<label for="message">Message</label>
+<textarea name="message" id="message"></textarea>
+<div class="contact-actions">
+<button type="submit">Send Message</button>
+</div>
+<p id="formMsg" style="display:none;font-weight:bold;"></p>
+</form>
+
+
+<div class="social-links contact-socials" aria-label="Social Links">
+<a href="mailto:ronandalis@my.cspc.edu.ph" title="Email">✉️</a>
+<a href="https://facebook.com/ronandalis" target="_blank" rel="noopener" title="Facebook">📘</a>
+<a href="https://github.com/ronandalis" target="_blank" rel="noopener" title="GitHub">💻</a>
+</div>
+</div>
+</section>
+
+
+
+  <!-- Project Modal Popup -->
+  <div id="projectModal" class="project-modal">
+    <div class="modal-content">
+      <span id="closeModal" class="modal-close">&times;</span>
+      <div id="modalProjectInfo"></div>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="animation.js"></script>
+  <script src="enhance.js"></script>
+</body>
+</html>
